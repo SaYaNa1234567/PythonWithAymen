@@ -3,6 +3,6 @@ Move the first letter of each word to the end of it, then add "ay" to the end of
 pig_it('Pig latin is cool') # igPay atinlay siay oolcay
 pig_it('Hello world !')     # elloHay orldway !
 #2
-
+factorial
 #3
 A natural number N is given. Print all its digits one by one, in the usual order (and then in reverse), separating them with spaces or new lines. For example: 179 => 1 7 9; 179 => 9 7 1
