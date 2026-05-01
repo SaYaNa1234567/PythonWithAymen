@@ -1,5 +1,5 @@
 def pig_it(){
 }
 
-print('hi sanya')
-print("i am not sanya:0")
+pig_it('hi sanya')
+pig_it("i am not sanya:0")
