@@ -1,5 +1,6 @@
 def pig_it(text):
-  words = str(text.split())
+  text = str(text)
+  words = text.split()
   res = []
   for x in words:
     if x.isalpha():
