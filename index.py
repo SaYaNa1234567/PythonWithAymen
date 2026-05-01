@@ -2,9 +2,12 @@ def pig_it(text){
   words = text.split()
   res = []
   for x in words:
-    for x.alpha():
-      
-      
+    if x.alpha():
+      pig = word[:1] +word[0]+"ay"
+      result.append(pig)
+    else:
+      result.append(pig)
+  return res
 }
 
 pig_it('hi sanya')
