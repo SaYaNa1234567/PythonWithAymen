@@ -1,4 +1,6 @@
 
+
+
 def pig_it(text):
   text = str(text)
   words = text.split()
@@ -12,4 +14,12 @@ def pig_it(text):
   return ' '.join(res)
 
 print(pig_it('hi sanya'))
+
 print(pig_it('i am sanya:0'))
+
+print(pig_it('i am not sanya:0'))
+
+## 2
+def fuck(num):
+ pass
+
