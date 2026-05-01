@@ -32,3 +32,9 @@ def fuck(num):
     res *= x
   return res
 print(fuck(6))
+## 3
+
+N = int(input())
+dig = str(N)
+print(' '.join(dig))
+print(' '.join(dig[::-1]))
