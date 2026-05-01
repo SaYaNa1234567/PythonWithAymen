@@ -23,3 +23,12 @@ def fuck(num):
     i *= 5
   return count
 print(fuck(5))
+
+## 2 only fac
+
+def fuck(num):
+  res = 1
+  for x in range(1, num+1):
+    res *= i
+  return res
+print(fuck(6))
