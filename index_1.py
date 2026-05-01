@@ -32,4 +32,4 @@ def pig_it(text):
 
 print(pig_it('hi sanya'))
 print(pig_it('i am not sanya:0'))
->>>>>>> 7eb888ed0266324d3bb865a218e98ea5965e00f8
+
