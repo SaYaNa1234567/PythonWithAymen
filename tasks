@@ -5,8 +5,8 @@ pig_it('Hello world !')     # elloHay orldway !
 #2
 factorial
 #3
-#4
 A natural number N is given. Print all its digits one by one, in the usual order (and then in reverse), separating them with spaces or new lines. For example: 179 => 1 7 9; 179 => 9 7 1
+#4
 Write a method (or function, depending on the language) that converts a string to camelCase, that is, all words must have their first letter capitalized and spaces must be removed.
 Examples (input --> output):
 "hello case" --> "HelloCase"
