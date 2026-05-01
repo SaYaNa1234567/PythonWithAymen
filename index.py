@@ -3,11 +3,11 @@ def pig_it(text):
   res = []
   for x in words:
     if x.isalpha():
-      pigi = words[1:] +words[0]+'ay'
+      pigi = x[1:]+x[0]+'ay'
       res.append(pigi)
     else:
       res.append(x)
-  return res
+  return ' '.join(res)
 
-pig_it('hi sanya')
-pig_it('i am not sanya:0')
+print(pig_it('hi sanya'))
+print(pig_it('i am not sanya:0'))
