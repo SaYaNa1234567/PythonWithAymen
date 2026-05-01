@@ -3,7 +3,7 @@ def pig_it(text):
   res = []
   for x in words:
     if x.isalpha():
-      pig = word[:1] +word[0]+"ay"
+      pig = words[:1] +words[0]+"ay"
       result.append(pig)
     else:
       result.append(pig)
