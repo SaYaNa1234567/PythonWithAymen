@@ -41,3 +41,16 @@ for i in lis:
     new_var+=i.capitalize()
 print(new_var)
 
+## sanya's
+def wsp(text):
+
+  words = text.split()
+  res = ""
+  for x in words:
+    f1 = x[0].upper()
+    rest = x[1:].lower()
+    res += f1+rest
+  return res
+print(wsp('ad asd'))
+
+
