@@ -15,3 +15,5 @@ print(pig_it('hi sanya'))
 print(pig_it('i am not sanya:0'))
 
 ## 2
+def fuck(num):
+  
