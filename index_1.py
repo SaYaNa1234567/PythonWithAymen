@@ -32,4 +32,12 @@ def pig_it(text):
 
 print(pig_it('hi sanya'))
 print(pig_it('i am not sanya:0'))
->>>>>>> 7eb888ed0266324d3bb865a218e98ea5965e00f8
+#4 task number 4
+
+word="hello case"
+lis=word.split()
+new_var=''
+for i in lis:
+    new_var+=i.capitalize()
+print(new_var)
+
