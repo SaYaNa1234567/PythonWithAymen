@@ -29,6 +29,6 @@ print(fuck(5))
 def fuck(num):
   res = 1
   for x in range(1, num+1):
-    res *= i
+    res *= x
   return res
 print(fuck(6))
