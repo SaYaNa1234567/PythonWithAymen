@@ -17,7 +17,9 @@ print(pig_it('i am not sanya:0'))
 ## 2
 def fuck(num):
   i = 5
+  count = 0
   while num // i >=1:
     count += num//i
     i *= 5
   return count
+print(fuck(5))
