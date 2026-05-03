@@ -48,7 +48,7 @@ for i in n:
     empty+=' '+i+' '
 
 print(empty)
-=======
+
 def pig_it(text):
   words = str(text.split())
   res = []
