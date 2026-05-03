@@ -19,6 +19,7 @@ pig_it('Hello world !')     # elloHay orldway !
     
 
 
+
 # def pig_it(text):
 #   words = str(text.split())
 #   res = []
@@ -47,3 +48,40 @@ for i in n:
     empty+=' '+i+' '
 
 print(empty)
+=======
+def pig_it(text):
+  words = str(text.split())
+  res = []
+  for x in words:
+    if x.isalpha():
+      pigi = x[1:]+x[0]+'ay'
+      res.append(pigi)
+    else:
+      res.append(x)
+  return ' '.join(res)
+
+print(pig_it('hi sanya'))
+print(pig_it('i am not sanya:0'))
+#4 task number 4
+
+word="hello case"
+lis=word.split()
+new_var=''
+for i in lis:
+    new_var+=i.capitalize()
+print(new_var)
+
+## sanya's
+def wsp(text):
+
+  words = text.split()
+  res = ""
+  for x in words:
+    f1 = x[0].upper()
+    rest = x[1:].lower()
+    res += f1+rest
+  return res
+print(wsp('ad asd'))
+
+
+
