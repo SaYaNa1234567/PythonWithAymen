@@ -1,0 +1,54 @@
+#1
+Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched.
+pig_it('Pig latin is cool') # igPay atinlay siay oolcay
+pig_it('Hello world !')     # elloHay orldway !
+#2
+factorial
+#3
+A natural number N is given. Print all its digits one by one, in the usual order (and then in reverse), separating them with spaces or new lines. For example: 179 => 1 7 9; 179 => 9 7 1
+#4
+Write a method (or function, depending on the language) that converts a string to camelCase, that is, all words must have their first letter capitalized and spaces must be removed.
+Examples (input --> output):
+"hello case" --> "HelloCase"
+"camel case word" --> "CamelCaseWord"
+#5
+Define a function that takes an integer argument and returns a logical value true 
+or false depending on if the integer is a prime.
+
+Per Wikipedia, a prime number ( or a prime ) is a natural number greater than 1 that has no positive divisors other than 1 and itself.
+#6
+Digital root is the recursive sum of all the digits in a number.
+
+Given n, take the sum of the digits of n. If that value has more than one digit,
+ continue reducing in this way until a single-digit number is produced.
+The input will be a non-negative integer.
+
+#7
+John has invited some friends. His list is:
+
+s = "Fred:Corwill;Wilfred:Corwill;Barney:Tornbull;Betty:Tornbull;Bjon:Tornbull;Raphael:Corwill;Alfred:Corwill";
+Could you make a program that
+
+makes this string uppercase
+gives it sorted in alphabetical order by last name.
+When the last names are the same, sort them by first name. Last name and first name of a guest come in the result between parentheses separated by a comma.
+
+So the result of function meeting(s) will be:
+
+"(CORWILL, ALFRED)(CORWILL, FRED)(CORWILL, RAPHAEL)(CORWILL, WILFRED)(TORNBULL, BARNEY)(TORNBULL, BETTY)(TORNBULL, BJON)"
+It can happen that in two distinct families with the same family name two people have the same first name too.
+
+Notes
+You can see another examples in the "Sample tests".
+
+
+
+
+
+
+
+
+
+
+
+
