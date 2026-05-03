@@ -23,7 +23,7 @@ def fuck(num):
   return count
 
 print(fuck(6))
-=======
+
 print(fuck(5))
 
 ## 2 only fac
