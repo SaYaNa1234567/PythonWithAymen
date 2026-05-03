@@ -1,4 +1,3 @@
-## 1
 def pig_it(text):
   text = str(text)
   words = text.split()
@@ -12,8 +11,8 @@ def pig_it(text):
   return ' '.join(res)
 
 print(pig_it('hi sanya'))
-print(pig_it('i am not sanya:0'))
 
+print(pig_it('i am not sanya:0'))
 ## 2
 def fuck(num):
   i = 5
@@ -22,6 +21,9 @@ def fuck(num):
     count += num//i
     i *= 5
   return count
+
+print(fuck(6))
+=======
 print(fuck(5))
 
 ## 2 only fac
@@ -50,4 +52,5 @@ def wsp(text):
     res += f1+rest
   return res
 print(wsp('ad asd'))
+
 
